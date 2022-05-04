@@ -30,22 +30,6 @@
         { KM0,   KC_NO, KC_NO, KM3,   KC_NO, KM5,   KM6,   KM7,   KM8,   KM9,   KN0,   KN1 } \
 }
 
-
-/* #define LAYOUT_iie113bear(k0A, k0B, k0C, k0D, k0F, k0G, k0H, k0I, k0K, k0L, k6A, k6B, k6C, k6D, k6F, k6G, k6H, k6I, k6J, k6K, k6L, k1A, k1B, k1C, k1D, k1E, k1F, k1G, k1H, k1I, k1J, k1K, k7A, k7B, k7C, k7D, k7E, k7F, k7G, k7I, k7J, k7K, k7L, k2A, k2B, k2C, k2D, k2E, k2F, k2G, k2H, k2J, k2K, k2L, k8B, k8C, k8D, k8E, k8F, k8G, k8H, k8I, k8J, k8K, k8L, k3D, k3E, k3F, k3G, k3H, k3J, k3K, k9A, k9B, k9C, k9D, k9E, k9F, k9G, k9I, k4B, k4D, k4F, k4G, k4H, k4I, k4K, k4L, kAB, kAC, kAD, kAE, kAF, kAG, kAI, kAK, k5A, k5B, k5C, k5D, k5E, k5F, k5I, k5L, kBA, kBD, kBF, kBG, kBH, kBI, kBJ, kBK, kBL) {\
-* 	 {k0A, k0B, k0C, k0D, KC_NO, k0F, k0G, k0H, k0I, KC_NO, k0K, k0L}, \
-* 	 {k1A, k1B, k1C, k1D, k1E, k1F, k1G, k1H, k1I, k1J, k1K, KC_NO}, \
-* 	 {k2A, k2B, k2C, k2D, k2E, k2F, k2G, k2H, KC_NO, k2J, k2K, k2L}, \
-* 	 {KC_NO, KC_NO, KC_NO, k3D, k3E, k3F, k3G, k3H, KC_NO, k3J, k3K, KC_NO}, \
-* 	 {KC_NO, k4B, KC_NO, k4D, KC_NO, k4F, k4G, k4H, k4I, KC_NO, k4K, k4L}, \
-* 	 {k5A, k5B, k5C, k5D, k5E, k5F, KC_NO, KC_NO, k5I, KC_NO, KC_NO, k5L}, \
-* 	 {k6A, k6B, k6C, k6D, KC_NO, k6F, k6G, k6H, k6I, k6J, k6K, k6L}, \
-* 	 {k7A, k7B, k7C, k7D, k7E, k7F, k7G, KC_NO, k7I, k7J, k7K, k7L}, \
-* 	 {KC_NO, k8B, k8C, k8D, k8E, k8F, k8G, k8H, k8I, k8J, k8K, k8L}, \
-* 	 {k9A, k9B, k9C, k9D, k9E, k9F, k9G, KC_NO, k9I, KC_NO, KC_NO, KC_NO}, \
-* 	 {KC_NO, kAB, kAC, kAD, kAE, kAF, kAG, KC_NO, kAI, KC_NO, kAK, KC_NO}, \
-* 	 {kBA, KC_NO, KC_NO, kBD, KC_NO, kBF, kBG, kBH, kBI, kBJ, kBK, kBL} \
-* }
-*/
     /*
      * ┌───┬───┬───┐ ┌───┐   ┌───┬───┬───┬───┐ ┌───┬───┐    ┌───┬───┬───┬───┐ ┌───┬───┬───┬───┐ ┌───┬───┬───┐
      * │PSc│Scr│Pse│ │Esc│   │F1 │F2 │F3 │F4 │ │F5 │F6 │    │F5 │F6 │F7 │F8 │ │F9 │F10│F11│F12│ │PSc│Scr│Pse│
