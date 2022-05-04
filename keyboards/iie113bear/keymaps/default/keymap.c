@@ -1,4 +1,6 @@
 #include QMK_KEYBOARD_H
+#include <stdio.h>
+
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -11,3 +13,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LEFT, KC_DOWN, KC_RGHT, KC_LCTL, KC_LGUI, KC_LALT,                   KC_SPC,                    KC_TRNS,  KC_TRNS,                   KC_SPC,           KC_RALT, KC_RGUI, KC_APP,  KC_RCTL,    KC_LEFT, KC_DOWN, KC_RGHT
     )
 };
+
+
+
+#ifdef OLED_ENABLE
+#endif

@@ -1,3 +1,5 @@
+#pragma once
+
 #include "quantum.h"
 
 #define LAYOUT_iie113bear( \
@@ -60,3 +62,4 @@
      * │ ← │ ↓ │ → │ │Ctrl│GUI │Alt │          │       │    │     │       │ Alt│ GUI│Menu│Ctrl│ │ ← │ ↓ │ → │
      * └───┴───┴───┘ └────┴────┴────┴──────────┴───────┘    └─────┴───────┴────┴────┴────┴────┘ └───┴───┴───┘
      */
+#define LAYOUT LAYOUT
