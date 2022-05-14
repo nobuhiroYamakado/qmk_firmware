@@ -49,8 +49,8 @@
 // #define SPLIT_USB_TIMEOUT_POLL 10
 
 
-#define MASTER_RIGHT
-// #define SPLIT_HAND_PIN B4
+// #define MASTER_RIGHT
+#define SPLIT_HAND_PIN B4
 
 // #define TAP_HOLD_CAPS_DELAY 80
 
@@ -65,3 +65,6 @@
 #define OLED_DISPLAY_WIDTH 128
 #define OLED_DISPLAY_HEIGHT 32
 #define OLED_TIMEOUT 5000
+
+#define SPLIT_TRANSPORT_MIRROR
+
