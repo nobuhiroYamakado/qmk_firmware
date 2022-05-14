@@ -2,8 +2,10 @@
 
 
 #ifdef OLED_ENABLE
-oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
-    return OLED_ROTATION_180;
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+  if (is_keyboard_left())
+    return OLED_ROTATION_180;  // flips the display 180 degrees if offhand
+  return rotation;
 }
 
 bool oled_task_kb(void) {
